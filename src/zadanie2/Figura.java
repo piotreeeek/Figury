@@ -19,7 +19,7 @@ public abstract class Figura{
 
     @Override
     public String toString(){
-      return getClass().getSimpleName() + ", " + this.obliczPole();
+      return "Nazwa figury, pole = " + getClass().getSimpleName() + ", " + this.obliczPole();
     }
 
     @Override
